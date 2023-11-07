@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Customize this layout according to your design -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp"
+        >
+        <TextView
+            android:id="@+id/message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#1A3EFF"
+            android:padding="13dp"
+            android:textColor="@color/lred"
+            android:text="hello"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
+    <!-- Add any other views you want for the right chat item -->
+</RelativeLayout>
